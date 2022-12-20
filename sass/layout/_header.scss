@@ -1,0 +1,31 @@
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: 480px) {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+}
+
+.logo-header {
+  //tablet
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  // desktop
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}

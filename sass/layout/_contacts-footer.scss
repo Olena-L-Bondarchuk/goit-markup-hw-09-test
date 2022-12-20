@@ -1,0 +1,23 @@
+.contacts-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  line-height: 1.14;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--transition-duration) var(--transition-timing-function);
+
+  &__address {
+    color: var(--secondary-text-color);
+  }
+
+  &__mail:hover,
+  &__mail:focus,
+  &__tel:hover,
+  &__tel:focus {
+    color: var(--accent-color);
+  }
+}

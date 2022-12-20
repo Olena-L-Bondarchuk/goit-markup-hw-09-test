@@ -1,0 +1,32 @@
+.examples {
+  padding-top: 0;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    gap: 32px;
+    margin-top: 50px;
+  }
+
+  &__thumb {
+    position: relative;
+  }
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px 0;
+  }
+  &__text {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
+}

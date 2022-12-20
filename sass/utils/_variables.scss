@@ -1,0 +1,21 @@
+:root {
+  /* Text colors */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+
+  /* BG colors */
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --button-bgc: #f5f4fa;
+  --team-bgc: #f5f4fa;
+  --filters-bgc: #eeeeee;
+
+  /* Color to icons */
+  --primary-icon: #afb1b8;
+
+  /* Transitions */
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
